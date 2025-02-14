@@ -6,16 +6,28 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+<<<<<<< HEAD
     "splash": {
       "image": "./assets/splash.png",
+=======
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+>>>>>>> bb5aa3f (Initial commit)
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
+<<<<<<< HEAD
       "bundleIdentifier": "com.ikagaming.rouletteprivatepredictor"
     },
     "android": {
       "package": "com.ikagaming.rouletteprivatepredictor",
+=======
+      "supportsTablet": true
+    },
+    "android": {
+>>>>>>> bb5aa3f (Initial commit)
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -23,6 +35,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+<<<<<<< HEAD
     },
     "extra": {
       "eas": {
@@ -37,5 +50,8 @@
         }
       ]
     ]
+=======
+    }
+>>>>>>> bb5aa3f (Initial commit)
   }
 }
