@@ -6,16 +6,16 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.ikagaming.rouletteprivatepredictor"
     },
     "android": {
+      "package": "com.ikagaming.rouletteprivatepredictor",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -23,6 +23,19 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "05fea1d0-58e1-4a3b-9ba6-9dd08f6d5d9f"
+      }
+    },
+    "plugins": [
+      [
+        "react-native-qonversion",
+        {
+          "autoTrackPurchases": true
+        }
+      ]
+    ]
   }
 }
